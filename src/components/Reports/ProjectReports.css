@@ -1,0 +1,57 @@
+.registry-table-wrapper {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+.registry-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+.registry-table thead {
+  background: #f9fafb;
+}
+.registry-table th {
+  padding: 12px 14px;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+.registry-table td {
+  padding: 12px 14px;
+  color: #111827;
+  border-bottom: 1px solid #f1f5f9;
+  white-space: nowrap;
+}
+/* Status Pills */
+.status {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.status.active {
+  background: #dcfce7;
+  color: #166534;
+}
+.status.planning {
+  background: #e0f2fe;
+  color: #075985;
+}
+.status.implementation {
+  background: #ffedd5;
+  color: #9a3412;
+}
+.status.completed {
+  background: #f3e8ff;
+  color: #6b21a8;
+}
+/* GHG Highlight */
+.ghg {
+  color: #16a34a;
+  font-weight: 600;
+}

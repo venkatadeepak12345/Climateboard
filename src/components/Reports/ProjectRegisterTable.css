@@ -1,0 +1,75 @@
+/* Wrapper to allow horizontal scroll on small screens */
+.registry-table-wrapper {
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+/* Main table */
+.registry-table {
+  width: 100%;
+  border-collapse: collapse; /* IMPORTANT for clean borders */
+  font-size: 13px;
+  color: #374151;
+}
+
+/* Table header */
+.registry-table thead th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+/* Table body cells */
+.registry-table tbody td {
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+/* Row hover effect */
+.registry-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+/* Status badge base */
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 999px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+/* Status colors */
+.status.ontrack {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+
+.status.atrisk {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.status.completed {
+  background-color: #e0f2fe;
+  color: #075985;
+  border: 1px solid #bae6fd;
+}
+
+/* Optional: align numbers nicely */
+.registry-table td:nth-child(6),
+.registry-table td:nth-child(7) {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.export-btn:hover {
+  background: #15803d;
+}

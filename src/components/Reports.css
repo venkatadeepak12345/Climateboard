@@ -1,0 +1,70 @@
+/* Page */
+.reports-page {
+  padding: 24px;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* Title */
+.reports-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.reports-subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+/* Tabs container */
+.reports-tabs {
+  display: flex;
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 4px;
+  border: 1px solid #e2e8f0;
+  max-width: 900px;
+}
+
+/* Tab button */
+.tab-btn {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #475569;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+/* Active tab (exact image look) */
+.tab-btn.active {
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Content area */
+.reports-content {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Tab panel */
+.tab-panel h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.tab-panel p {
+  font-size: 14px;
+  color: #64748b;
+}
