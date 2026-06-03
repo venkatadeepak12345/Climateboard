@@ -7,11 +7,8 @@ export function Sidebar({ isOpen }: SidebarProps) {
   return (
     <aside className={`bg-white border-r border-gray-200 flex flex-col transition-all duration-300 ${isOpen ? 'w-64' : 'w-0'} overflow-hidden`}>
       <div className="p-4 border-b border-gray-200 flex items-center gap-3">
-        <div className="bg-green-50 ">
-         
-          <Building width="40" height="40" viewBox='0 0 20 20' fill='none '/>
-           <path d="M3 4h14v12H3z" fill="#36d820ff" />
-            <path d="M6 7h8M6 10h6M6 13h4" stroke="white" strokeWidth="1.5" />
+        <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-green-50 text-green-700">
+          <Building className="h-8 w-8" />
         </div>
         <div>
           <div className="text-gray-900">Climate Registry</div>
@@ -22,7 +19,7 @@ export function Sidebar({ isOpen }: SidebarProps) {
         <div className="mb-6">
           <div className="text-xs text-gray-500 mb-2 px-2">Main Navigation</div>
           <div className="space-y-1">
-            <NavLink to='/' className="flex items-center gap-3 px-3 py-2 text-gray-900 bg-gray-100 rounded-md">
+            <NavLink to='/dashboard' className="flex items-center gap-3 px-3 py-2 text-gray-900 bg-gray-100 rounded-md">
               <LayoutDashboard className="w-4 h-4" />
               <span>Dashboard</span>
             </NavLink>
